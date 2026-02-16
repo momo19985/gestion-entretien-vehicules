@@ -1,0 +1,17 @@
+# IDE
+.cursor/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Debug/setup scripts
+setup_db.php
+create_admin.php
+debug_login.php

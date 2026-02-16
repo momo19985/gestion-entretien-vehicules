@@ -1,0 +1,83 @@
+/* ============================================
+   AUTO-PARC - Custom Styles
+   ============================================ */
+
+.xst {
+    background-color: #f0f3f6;
+} 
+
+body {
+    background: linear-gradient(-45deg, #1a5276, #2e86c1, #3498db, #5dade2);
+    background-size: 400% 400%;
+    animation: gradientShift 12s ease infinite;
+}
+
+/* === LOGIN FORM === */
+
+.form-signin {
+    width: 420px;
+    padding: 35px 40px 45px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+}
+
+.form-signin:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 15px;
+    height: auto;
+    padding: 14px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+    margin-bottom: 12px;
+}
+
+.form-signin .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+    background: #fff;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+.msgbox {
+    margin-top: 15px;
+    width: 100%;
+    min-height: 25px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#login-submit {
+    margin-top: 4px;
+}
+
+.myload {
+    margin-top: 20%;
+}
+
+/* === GRADIENT ANIMATION FOR LOGIN === */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
