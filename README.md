@@ -168,14 +168,32 @@ gestion-entretien-vehicules/
 ### Page de connexion
 Interface moderne avec fond anime, effets de transition et validation en temps reel.
 
+![Page de connexion](img/screenshots/login.png)
+
 ### Tableau de bord
 4 cartes de statistiques, graphique mensuel Morris.js, tableaux de cout par vehicule et par piece.
 
-### Gestion des entretiens
+![Tableau de bord](img/screenshots/dashboard.png)
+
+### Liste des vehicules
+Gestion complete des vehicules avec kilometrage, recherche par matricule et filtrage par type.
+
+![Liste vehicules](img/screenshots/vehicules.png)
+
+### Liste des entretiens
+Suivi des entretiens avec statut colore (En attente / En cours / Termine) et filtres avances.
+
+![Liste entretiens](img/screenshots/entretiens.png)
+
+### Ajouter un entretien
 Formulaire avec ajout dynamique de pieces de rechange, calcul automatique des montants.
 
-### Rapports
-Analyses detaillees avec barres de progression, filtrage par periode, bouton d'impression.
+![Ajouter entretien](img/screenshots/ajouter_entretien.png)
+
+### Rapports & Analyses
+Analyses detaillees avec barres de progression, filtrage par periode, graphique mensuel et bouton d'impression.
+
+![Rapports](img/screenshots/rapports.png)
 
 ## Configuration
 
